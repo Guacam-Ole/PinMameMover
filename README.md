@@ -14,7 +14,7 @@ _none_ Detect newly created threads, search for the MAME-WIndow and resize it
 _MANUAL_ Detect and resize **ONCE**. The MAME-Window must already be visible. For testing purpouses
 _NOMOVE_ Only display the current position and size. Don't move
 
-## Tipps
+## Hints
 ### Finding the right position:
 * Set the Config-Paramter _Interval_ to a 10 seconds. Then
 * Start with "NOMOVE" - Parameter. 
@@ -35,6 +35,7 @@ If you use a launcher like PinballX, you can use the "smarter" detection. Put _I
 
 Start PinMameMover without parameters and the MAME-Window should resize automatically after VPinball is started by your launcher.
 
-
+## Reduce Output
+You can reduce the Output (and logging) by changing the level unter _log4net/root/level_ Change the value to INFO, or WARN to get less output. If you want no output at all, remove the line _appender-ref ref="ConsoleAppender"_
 
 
