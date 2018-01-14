@@ -38,4 +38,5 @@ Start PinMameMover without parameters and the MAME-Window should resize automati
 ## Reduce Output
 You can reduce the Output (and logging) by changing the level unter _log4net/root/level_ Change the value to INFO, or WARN to get less output. If you want no output at all, remove the line _appender-ref ref="ConsoleAppender"_
 
-
+## Binaries
+You can download V 1.0 there [https://files.oles-cloud.de/PinMameMover.1.0.zip]
